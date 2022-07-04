@@ -1,7 +1,12 @@
 # node-sqlite-queue
 SQLite-backed job queue for Node.js
 
-## producer
+## Install
+```bash
+npm i node-sqlite-queue --save
+```
+## Usage
+### producer
 ```js
 const sqliteQ = require('node-sqlite-queue');
 const client = sqliteQ('./db_job.db');
@@ -28,7 +33,7 @@ queue.enqueue(queueHandleMethodName, msg, msgOptions, function (err, job) {
 });
 
 ```
-## consumer
+### consumer
 ```js
 const sqliteQ = require('node-sqlite-queue');
 const client = sqliteQ('./db_job.db');
