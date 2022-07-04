@@ -7,12 +7,14 @@
   "license": "MIT",
   "main": "./lib/index",
   "scripts": {
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/sinkhaha/node-sqlite-queue.git"
   },
   "dependencies": {
-    "sqlite3": "^5.0.8"
+    "sqlite3": "^5.0.8",
+    "mocha": "^2.3.4"
   }
 }
