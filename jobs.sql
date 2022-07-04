@@ -9,11 +9,13 @@ CREATE TABLE jobs (
 	queue TEXT,
 	attempts TEXT,
 	timeout INT,
-	delay DATETIME,
+	delay TIMESTAMP,
 	priority INT,
 	status TEXT,
-	enqueued DATETIME,
-	dequeued DATETIME,
-	ended DATETIME,
-    result TEXT 
+	enqueued TIMESTAMP,
+	dequeued TIMESTAMP,
+	ended TIMESTAMP,
+    result TEXT,
+	created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
