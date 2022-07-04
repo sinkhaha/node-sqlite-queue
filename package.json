@@ -2,8 +2,8 @@
   "name": "node-sqlite-queue",
   "version": "1.0.0",
   "description": "SQLite-backed job queue for Node.js",
-  "homepage": "https://github.com/sinkhaha/node-sqlite-queue",
-  "author": "sink <1468709106@qq.com>",
+  "homepage": "https://github.com/sinkhaha/node-sqlite-queue#readme",
+  "author": "sinkhaha <1468709106@qq.com>",
   "license": "MIT",
   "main": "./lib/index",
   "scripts": {
@@ -13,6 +13,10 @@
     "type": "git",
     "url": "https://github.com/sinkhaha/node-sqlite-queue.git"
   },
+  "keywords": [
+    "sqlite",
+    "queue"
+  ],
   "dependencies": {
     "sqlite3": "^5.0.8"
   },
