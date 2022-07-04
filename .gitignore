@@ -30,5 +30,4 @@ typings/
 
 dist
 
-./example/db_job.db
-
+example/db_job.db
