@@ -1,5 +1,6 @@
 # node-sqlite-queue
-SQLite-backed job queue for Node.js
+* SQLite-backed job queue for Node.js.
+> SQLite version of [monq](https://github.com/scttnlsn/monq), Reference monq
 
 ## Install
 ```bash
